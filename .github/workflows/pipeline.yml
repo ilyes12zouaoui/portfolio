@@ -1,0 +1,26 @@
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build_test:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: checkout master
+        uses: actions/checkout@v2
+      - name: npm ci, build
+        run: |
+          npm ci
+          npm run build
+      - name: deploy to github actions
+        uses: bitovi/github-actions-react-to-ghp@v1.1.1
+          path: dist
