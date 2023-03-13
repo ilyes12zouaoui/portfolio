@@ -200,7 +200,7 @@ const FormLayout = () => {
                   six professional certifications
                 </a>{" "}
                 in java spring framework, cloud technologies and Scrum which can
-                be found in more detail on my{" "}
+                be found in more details on my{" "}
                 <a
                   href="cv/cv_ilyes_zouaoui.pdf"
                   className="color-blue"
