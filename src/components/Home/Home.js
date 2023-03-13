@@ -109,7 +109,7 @@ const FormLayout = () => {
                 className="color-blue text-center mb-3 mt-2"
                 style={{ fontSize: "22px" }}
               >
-                Lead Java Developer
+                Lead Software Engineer
               </h1>
               <p
                 style={{
@@ -120,7 +120,7 @@ const FormLayout = () => {
                 }}
               >
                 Hello very happy to have you on my portfolio website. My name is
-                Ilyes Zouaoui. I am a Lead Java Developer at{" "}
+                Ilyes Zouaoui. I am a Lead Software Engineer at{" "}
                 <a
                   href="https://www.capgemini.com/de-de/"
                   className="color-blue"
@@ -129,7 +129,7 @@ const FormLayout = () => {
                 >
                   Capgemini
                 </a>{" "}
-                Berlin. In active search for a new opportunity in Berlin.
+                Berlin. In active search for a new opportunity.
               </p>
               <p
                 style={{
@@ -140,11 +140,11 @@ const FormLayout = () => {
                 }}
               >
                 {" "}
-                During my past experiences. I was the first technical contact
+                During my career I was the first technical contact
                 person for multiple microservices. Proposed architecture
                 solutions and achieved five times faster response time for one
-                of the projects. I worked mainly on the back end. But also have
-                good knowledge in cloud and front end. In addition I
+                of the projects. Mainly worked on the back-end. But also have
+                good knowledge in cloud and front-end. In addition I
                 collaborated extensively with the product owner in task
                 definition, refinement activities and backlog ordering. Also
                 participated in technical interviews for new candidates to our
