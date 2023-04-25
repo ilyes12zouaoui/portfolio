@@ -55,7 +55,7 @@ const FormLayout = ({ user, isOwner = false }) => {
                   size="1x"
                 />
                 <span className={style["profile-information-lane-span"]}>
-                  ilyes95zouaoui@gmail.com
+                  ilyes96zouaoui@gmail.com
                 </span>
               </div>
 

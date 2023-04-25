@@ -68,7 +68,7 @@ const Skill = ({
           )}{" "}
         </span>
       </div>
-      <div style={{ color: "#666", fontSize: "14px" }} className="mt-3 mb-1">
+      <div style={{ color: "#666", fontSize: "14px" }} className="mt-2 mb-1">
         {description}
       </div>
     </div>
