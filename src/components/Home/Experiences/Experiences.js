@@ -11,8 +11,8 @@ const Skills = () => {
             line management application using Java.            
             `,
             achievements: [
-              "Assisting our international Scrum team from Germany and India with the agile transformation.",
-              "Participating in the migration of legacy CORBA APIs to RESTful APIs using Javas."
+              "Assisting with the agile transformation of our international Scrum team from Germany and India.",
+              "Participating in the migration of legacy CORBA APIs to RESTful APIs using Java."
             ],
           },
 
@@ -63,7 +63,7 @@ const Skills = () => {
             Docker, Jenkins, Kubernetes and PostgreSql.
             `,
             achievements: [
-              "Remained on call to urgently support clients and resolve incidents.",
+              "Remained on call to urgently support clients, resolve incidents and fix code bugs.",
               "Actively participated in the project's onboarding of new colleagues."
             ],
           },
