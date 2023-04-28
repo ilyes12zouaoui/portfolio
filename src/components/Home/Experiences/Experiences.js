@@ -28,7 +28,7 @@ const Skills = () => {
             ],
           }
         ]}
-        jobTitle="Mid Level Software Engineer"
+        jobTitle="Lead Software Engineer"
         startDate="04/2023"
         endDate="Present"
         jobTitle2="Software Engineer"
