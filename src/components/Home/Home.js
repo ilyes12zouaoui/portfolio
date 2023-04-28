@@ -119,22 +119,15 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-                Hello I am a Fullstack Engineer with a focus on Backend with more than 3 years experience. Currently I hold                 <a
-                  href="https://www.credly.com/users/ilyes-zouaoui/badges"
+                Hello I am a Lead Software Engineer at  <a  
+                 href="https://www.capgemini.com/de-de/"
                   className="color-blue"
                   style={{ fontSize: "14px" }}
                   target="_blank"
                 >
-                  six professional certificates
-                </a>{" "} in java spring framework, cloud technologies (AWS, Kubernetes and Terraform) and Scrum (PMS II and PSPO II) which can be found in more details on my 
-                <a
-                  href="cv/cv_ilyes_zouaoui.pdf"
-                  className="color-blue"
-                  style={{ fontSize: "14px" }}
-                  target="_blank"
-                >
-                  {" "}resume.
-                </a>
+                  Capgemini
+                </a> in Berlin. During my career I worked on a variety of technologies from the Java and JavaScript ecosystems. Such us Spring Boot, Quarkus, TypeScript, React.js, NestJs, AWS, Docker, Kubernetes. Mainly worked on the Backend but also have good knowledge in Cloud and Frontend.
+               
               </p>
               <p
                 style={{
@@ -144,9 +137,23 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-                {" "}
-                Always trying to improve my skills by reading books about design patterns and software development best practices such us "Head First Design Patterns" and "Effective Java". Also worked on multiple projects using different technologies such us Java, Spring Boot, Quarkus, JavaScript, TypeScript, React.js, NestJs, AWS, Docker, Kubernetes.{" "}
-              </p>
+           To further improve my skills. I read many books about design patterns and software development best practices such us "Head First Design Patterns" and "Effective Java". Also obtained<a  
+                 href="https://www.credly.com/users/ilyes-zouaoui/badges"
+                  className="color-blue"
+                  style={{ fontSize: "14px" }}
+                  target="_blank"
+                >
+                 {" "} six professional certificates{" "}
+                </a> in java spring framework, cloud technologies (AWS, Kubernetes and Terraform) and Scrum (PSM II and PSPO II) which can be found in more details on my
+                <a
+                  href="cv/cv_ilyes_zouaoui.pdf"
+                  className="color-blue"
+                  style={{ fontSize: "14px" }}
+                  target="_blank"
+                >
+                 {" "} resume.
+                </a> 
+   </p>
               <p
                 style={{
                   color: "#666",
