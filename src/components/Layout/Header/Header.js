@@ -39,6 +39,17 @@ const Header = () => {
           </a>
           <Link
             activeClass="active"
+            to="WorkExperienceScrollTo"
+            spy={true}
+            smooth={true}
+            duration={(distance) =>
+              distance > 0 ? distance / 2.5 : (-1 * distance) / 2.5
+            }
+          >
+            Work Experience
+          </Link>
+          <Link
+            activeClass="active"
             to="certificationsScrollTo"
             spy={true}
             smooth={true}

@@ -14,7 +14,7 @@ const Skills = () => {
       <Tag title="Javascript" />
       <Tag title="TypeScript" /> 
       <Tag title="Node.js" /> 
-      <Tag title="NestJs" /> 
+      <Tag title="Hibernate" /> 
       <Tag title="React.js" /> 
       <Tag title="Angular" /> 
       <Tag title="CI/CD pipeline" />
