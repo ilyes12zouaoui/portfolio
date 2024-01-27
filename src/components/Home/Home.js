@@ -120,8 +120,16 @@ const FormLayout = () => {
                 }}
               >
                 Hello happy to have on my portfolio website. My name is Ilyes Zouaoui.
-                I have more than four years of experience as a Java developer in an agile team environment. In my previous roles, my primary focus was on backend development, utilizing Java, Spring Boot, Quarkus, Docker, and Kubernetes. Additionally, I've gained firsthand experience in frontend technologies like Angular, React, JavaScript, and TypeScript, as well as in cloud technologies, particularly AWS.
-              </p>
+                I am working as a Java Developer at <a
+                  href="https://www.cgm.com/deu_de"
+                  className="color-blue"
+                  style={{ fontSize: "14px" }}
+                  target="_blank"
+                >
+                  {" "}CompuGroup Medical SE & Co. KGaA{" "}
+                </a>
+                
+                 in Berlin. With over four years of experience in microservice software development within agile scrum teams. My main area of expertise lies in the backend, using Java, Spring Boot, Quarkus, Docker, and Kubernetes. Additionally, I have acquired firsthand experience in frontend technologies such as Angular, React, JavaScript, and TypeScript, as well as in cloud technologies, specifically AWS.</p>
               <p
                 style={{
                   color: "#666",
