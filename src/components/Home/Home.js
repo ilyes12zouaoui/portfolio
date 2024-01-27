@@ -120,7 +120,7 @@ const FormLayout = () => {
                 }}
               >
                 Hello happy to have on my portfolio website. My name is Ilyes Zouaoui.
-                I have over four years of experience as a Java developer in an agile team environment, In my previous roles, I worked mainly on the backend side using Java, Spring Boot, Quarkus, Docker, and Kubernetes. Additionally, I've had the opportunity to gain experience in frontend technologies like Angular, React, javascript, and TypeScript, while also leveraging cloud services on AWS.
+                I have more than four years of experience as a Java developer in an agile team environment. In my previous roles, my primary focus was on backend development, utilizing Java, Spring Boot, Quarkus, Docker, and Kubernetes. Additionally, I've gained firsthand experience in frontend technologies like Angular, React, JavaScript, and TypeScript, as well as in cloud technologies, particularly AWS.
               </p>
               <p
                 style={{
@@ -130,7 +130,7 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-                To enhance my expertise, I've obtained
+                To enhance my expertise, I have acquired
                 <a
                   href="https://www.credly.com/users/ilyes-zouaoui/badges"
                   className="color-blue"
