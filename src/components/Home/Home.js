@@ -30,7 +30,7 @@ function MyVerticallyCenteredModal(props) {
     >
       <Modal.Body>
         <div className="p-2" style={{ fontSize: "20px" }}>
-          email address: ilyes96zouaoui@gmail.com
+          email address: ilyes.zouaoui.work@gmail.com
         </div>
       </Modal.Body>
       <Modal.Footer>
@@ -188,7 +188,7 @@ const FormLayout = () => {
               >
                 I can't wait to bring my skills to a great company. Contribute
                 to it's growth and success and be one of its expert. Please
-                don't hesitate to contact me by email ilyes96zouaoui@gmail.com
+                don't hesitate to contact me by email ilyes.zouaoui.work@gmail.com
               </p>
               <p
                 style={{
@@ -248,7 +248,7 @@ const FormLayout = () => {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                  <a href = "mailto: ilyes96zouaoui@gmail.com">
+                  <a href = "mailto: ilyes.zouaoui.work@gmail.com">
                     <img
                    
                       src={googlePlusIcon}

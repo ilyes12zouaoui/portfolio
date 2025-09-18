@@ -23,7 +23,7 @@ function MyVerticallyCenteredModal(props) {
           className="p-2"
           style={{ fontSize: "20px" }}
         >
-          email address : ilyes96zouaoui@gmail.com
+          email address : ilyes.zouaoui.work@gmail.com
         </div>
       </Modal.Body>
       <Modal.Footer>
@@ -92,7 +92,7 @@ export default () => {
                     </a>
                   </li>
                   <li className="list-inline-item">
-                    <a href = "mailto: ilyes96zouaoui@gmail.com">
+                    <a href = "mailto: ilyes.zouaoui.work@gmail.com">
                     <img
     
                       src={googlePlusIcon}
