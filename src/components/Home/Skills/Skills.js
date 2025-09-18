@@ -9,15 +9,21 @@ const Skills = () => {
       <Tag title="SCRUM" />
       <Tag title="Java" />
       <Tag title="Spring Boot" />
+      <Tag title="Quarkus" />
       <Tag title="REST API" />
       <Tag title="Javascript" />
+      <Tag title="TypeScript" /> 
+      <Tag title="Node.js" /> 
+      <Tag title="NestJs" /> 
+      <Tag title="React.js" /> 
       <Tag title="Angular" /> 
       <Tag title="CI/CD pipeline" />
       <Tag title="Docker" />
       <Tag title="Kubernetes" />
       <Tag title="AWS" /> 
       <Tag title="Terraform" /> 
-      <Tag title="Kafka" /> 
+      <Tag title="Event Broker" /> 
+      <Tag title="PostgreSql" /> 
 
       
       

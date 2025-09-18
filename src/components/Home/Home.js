@@ -30,7 +30,7 @@ function MyVerticallyCenteredModal(props) {
     >
       <Modal.Body>
         <div className="p-2" style={{ fontSize: "20px" }}>
-          email address: ilyes95zouaoui@gmail.com
+          email address: ilyes96zouaoui@gmail.com
         </div>
       </Modal.Body>
       <Modal.Footer>
@@ -109,7 +109,7 @@ const FormLayout = () => {
                 className="color-blue text-center mb-3 mt-2"
                 style={{ fontSize: "22px" }}
               >
-                Lead Software Engineer
+                Mid Level Software Engineer
               </h1>
               <p
                 style={{
@@ -120,7 +120,7 @@ const FormLayout = () => {
                 }}
               >
                 Hello very happy to have you on my portfolio website. My name is
-                Ilyes Zouaoui. I am a Lead Software Engineer at{" "}
+                Ilyes Zouaoui. I am a Mid Level Software Engineer at{" "}
                 <a
                   href="https://www.capgemini.com/de-de/"
                   className="color-blue"
@@ -140,16 +140,7 @@ const FormLayout = () => {
                 }}
               >
                 {" "}
-                During my career I was the first technical contact
-                person for multiple microservices. Proposed architecture
-                solutions and achieved five times faster response time for one
-                of the projects. Mainly worked on the back-end. But also have
-                good knowledge in cloud and front-end. In addition I
-                collaborated extensively with the product owner in task
-                definition, refinement activities and backlog ordering. Also
-                participated in technical interviews for new candidates to our
-                projects.{" "}
-              </p>
+                During the projects I worked on. I made use of a variety of technologies such us Java, Spring Boot, Quarkus, JavaScript, TypeScript, React.js, NestJs, AWS, Docker, Kubernetes. Which made me understand how to create software solutions in multiple ways efficiently. Mainly worked on the backend, but also have good knowledge in frontend and cloud. Always trying to improve the overall quality of the project's code. I Proposed and implemented numerous code refactoring enhancements. Also Created prof of concepts and pitched them to our team's architect.</p>
               <p
                 style={{
                   color: "#666",
@@ -160,7 +151,7 @@ const FormLayout = () => {
               >
                 Passionate about coaching junior colleagues. I Created multiple
                 learning projects about full stack development and conducted
-                many KT sessions to share knowledge. Some of these learning
+                KT sessions to share knowledge. Some of these learning
                 projects can be found on my{" "}
                 <a
                   href="https://github.com/ilyes12zouaoui"
@@ -190,7 +181,7 @@ const FormLayout = () => {
               >
                 {" "}
                 To further improve my skills. I read many books about design
-                patterns and software development best practices. Also obtained{" "}
+                patterns and software development best practices such us "Head First Design Patterns". Also obtained{" "}
                 <a
                   href="https://www.credly.com/users/ilyes-zouaoui/badges"
                   className="color-blue"
@@ -199,7 +190,7 @@ const FormLayout = () => {
                 >
                   six professional certifications
                 </a>{" "}
-                in java spring framework, cloud technologies and Scrum which can
+                in java spring framework, cloud technologies (AWS, Kubernetes and Terraform) and Scrum (PMS II and PSPO II) which can
                 be found in more details on my{" "}
                 <a
                   href="cv/cv_ilyes_zouaoui.pdf"
@@ -220,7 +211,7 @@ const FormLayout = () => {
               >
                 I can't wait to bring my skills to a great company. Contribute
                 to it's growth and success and be one of its expert. Please
-                don't hesitate to contact me by email ilyes95zouaoui@gmail.com
+                don't hesitate to contact me by email ilyes96zouaoui@gmail.com
               </p>
               <p
                 style={{
@@ -339,7 +330,7 @@ const FormLayout = () => {
                 className="color-blue text-center"
                 style={{ fontSize: "24px", "margin-bottom": "15px" }}
               >
-                Certifications (
+                Certificates (
                 <a
                   className="color-blue"
                   href="https://www.credly.com/users/ilyes-zouaoui/badges"

@@ -1,16 +1,39 @@
 import React from "react";
 import Skill from "./Experience/Experience";
+import Skillv2 from "./Experience/Experiencev2";
 const Skills = () => {
   return (
     <>
-      <Skill
-        description="Led the development of microservice applications that handles the electronic signature of contracts
-        between car dealers and customers for a famous car manufacturer using Java, Spring Boot, Terraform,
-        Kubernetes, Docker, AWS, EKS, SNS, SQS, Github Actions (CI/CD), Angular, TypeScript, 
-        "
-        startDate="01/2022"
+      <Skillv2
+        descriptions={[
+          {
+            description: `Worked on two projects. In the current project I am participating in the development of a car assembly
+            line management application using Java.            
+            `,
+            achievements: [
+              "Assisting our international Scrum team from Germany and India with the agile transformation.",
+              "Participating in the migration of legacy CORBA APIs to RESTful APIs using Javas."
+            ],
+          },
+
+          {
+            description: `In the previous project I participated in the development of microservice applications that handles the
+            electronic signature of contracts between car dealers and customers using NestJs, Node.js, TypeScript,
+            JavaScript and AWS.`,
+            achievements: [
+              "Integrated multiple third-party vendors into the project such as Scrive, Salesforce and Onfido.",
+              "Proposed and implemented code refactoring optimizations that enhanced the system.",
+              "Collaborated with the product owner proxy on urgent bug investigation and resolution.",
+              "Conducted KT Sessions to share knowledge."
+            ],
+          }
+        ]}
+        jobTitle="Mid Level Software Engineer"
+        startDate="04/2023"
         endDate="Present"
-        title="Lead Software Engineer"
+        jobTitle2="Software Engineer"
+        startDate2="01/2022"
+        endDate2="04/2023"
         company="Capgemini"
         location="Berlin, Germany"
         link="https://www.capgemini.com/"
@@ -30,31 +53,56 @@ const Skills = () => {
           "DataDog",
           "AWS",
         ]}
-        achievement={[
-"Designed a code optimization solution which resulted in five times faster response time.",
-"Collaborated extensively with the product owner in backlog ordering and refinement activities.",
-"Participated in technical interviews for new project candidates.",
-"Coached team members on NEXUS SCRUM, software development, testing and architecture.",
-"Integrated multiple third-party vendors into the project such as Scrive, Salesforce and Onfido.",
-"Was the first technical contact person for multiple microservices.",
-        ]}
       />
-      <Skill
-      location="Tunis, Tunisia"
-      achievement={[
-        "Created a CI/CD pipeline optimization solution and proposed it to our team's architect.",
-"Coached new project trainees on software development and SCRUM.",
-"Remained on-call to urgently support clients, fix bugs and resolve incidents.",
+      <Skillv2
+        location="Tunis, Tunisia"
+        descriptions={[
+          {
+            description: `Worked on three projects. For the first project I participated in the Development and maintenance of
+            legacy microservice applications for automotive supply chain management using Quarkus, Java,
+            Docker, Jenkins, Kubernetes and PostgreSql.
+            `,
+            achievements: [
+              "Remained on call to urgently support clients and resolve incidents.",
+              "Actively participated in the project's onboarding of new colleagues."
+            ],
+          },
 
-      ]}
+          {
+            description: `For the second project I participated in the migration of a social media for luxurious car owners
+            application from PHP Drupal system to microservice solutions using Java, Spring Boot, Mqtt message
+            broker, PostgreSql, Docker, Kubernetes, Gitlab CI and React.js.`,
+            achievements: [
+              "Created a CI/CD pipeline optimization solution and presented it to our team's architect.",
+              "Coached new trainees on software development and SCRUM.",
+              "Presented the company to candidates and assisted in the successful recruitment of 3 colleagues."
+            ],
+          },
+          {
+            description: `For the third project I migrated a part of a monolithic application that calculates the usage of car
+            manufacturer equipment's to a microservice solution with deployment to the cloud using Java, Spring
+            Boot, Docker, Kubernetes, JavaScript, TypeScript, MySql, React.js, Gitlab CI and Microsoft Azure.`,
+            achievements: [
+              "Documented the migration steps as a proof of concept for my graduation internship."
+            ],
+          }
+        ]}
+        achievement={[
+          "Created a CI/CD pipeline optimization solution and proposed it to our team's architect.",
+          "Coached new project trainees on software development and SCRUM.",
+          "Remained on-call to urgently support clients, fix bugs and resolve incidents.",
+        ]}
         description="Participated in the development of a social media microservice applications for luxurious car owners
         which provides access to prestigious activities and offers using Spring Boot, Java, Docker, Kubernetes,
         AWS, EKS, Kafka Message Broker, Terraform, Gitlab CI, Angular, REST API, Open API, PostgreSQL.        
         "
         startDate="08/2020"
         endDate="12/2021"
-        title="Software Engineer"
-        company="MAIBORNWOLFF SARL"
+        jobTitle="Software Engineer"
+        startDate2="02/2020"
+        endDate2="08/2020"
+        jobTitle2="Trainee Software Engineer"
+        company="MAIBORNWOLFF"
         link="https://www.maibornwolff.de/en/tunisia"
         tags={[
           "Spring",
@@ -72,85 +120,32 @@ const Skills = () => {
           "SQL",
         ]}
       />
-      <Skill
-      location="Tunis, Tunisia"
-      achievement={[
-        "Created a CI/CD pipeline with continuous deployment to AWS EKS.",
-"Migrated part of a monolithic application to a full stack microservice based solution.",
-"Documented the migration steps as a prof of concept.",
-
-      ]}
-        description="Migrated a part of a monolithic JEE/JSF application which calculates the usage of car manufacturer
-        equipment's per employee. To a microservices-based solution using Java, Spring boot, Docker,
-        Kubernetes, Helm, AWS, EKS, Angular, HTML, CSS, Github Actions (CI/CD), SQL, Elasticsearch.        
-        "
-        startDate="02/2020"
-        endDate="07/2020"
-        title="Trainee Software Engineer"
-        company="MAIBORNWOLFF SARL"
-        link="https://www.maibornwolff.de/en/tunisia"
-        tags={[
-          "Spring",
-          "Spring boot",
-          "Spring security",
-          "Microservice",
-          "SQL",
-          "Docker",
-          "Docker compose",
-          "Kubernetes",
-          "Gitlab CI/CD",
-        ]}
-      />
-            <Skill
-      location="Tunis, Tunisia"
+      <Skillv2
+        location="Tunis, Tunisia"
         description="Taught during the week-ends (part-time) a group of 8 students from various ages 14 to 40 web
         development technologies. Such as HTML, CSS, Bootstrap, Node.js, Javascript, Typescript, Angular."
         achievement={[
           "Conducted more than 15 workshops about web development.",
-"Created 6 new learning projects and proposed them to Gomycode as new official training projects.",
+          "Created 6 new learning projects and proposed them to Gomycode as new official training projects.",
         ]}
-        startDate="08/2019"
-        endDate="12/2019"
-        title="Angular Web Lecturer"
+
+        descriptions={[
+          {
+            description: `Taught a group of 8 students from various ages 14 to 40 web development technologies during the
+            week-ends. Such as HTML, CSS, Bootstrap, Node.js, Javascript, Typescript, React.js.
+            `,
+            achievements: [
+              "Conducted more than 15 workshops about web development.",
+              "Created 6 new learning projects and proposed them to Gomycode as new official training projects.",
+            ],
+          }
+        ]}
+        startDate="02/2019"
+        endDate="07/2019"
+        jobTitle="Part-Time Web Lecturer"
         company="GOMYCODE"
         tags={["React", "Javascript", "HTML", "CSS", "Node.js"]}
         link="https://gomycode.com/"
-      />
-      <Skill
-      location="Tunis, Tunisia"
-        description="Collaborated with a doctor to define the business requirements for a forum web application about
-        Alzheimer disease. And developed it from scratch within a team of 4 trainees using Java, Spring boot,
-        Docker, AWS, ECS, S3, ALB, RDS, Lambda, Cloudfront, Angular, Github Actions (CI/CD), SQL."
-        achievement={[
-          "Collaborated extensively with the doctor to define business requirements and user stories.",
-"Implemented user authentication and authorization with JWT token and spring security.",
-"Deployed and integrated backend and front end parts on AWS ECS, S3 and Cloudfront.",
-"Was the Scrum Master of our team.",
-        ]}
-        startDate="05/2019"
-        endDate="07/2019"
-        title="Trainee Software Engineer"
-        company="ESPRIT MINOS GROUP"
-        tags={["React", "GraphQL", "Javascript", "Next.js", "Node.js"]}
-        link="http://esprit.tn/"
-      />
-      <Skill
-      location="Tunis, Tunisia"
-        description="Collaborate with the CEO of Vertel start-up to define the business requirements for a marketplace web
-        application and develop it from scratch within a team of 3 trainees using Javascript, Node.js, NoSql,
-        Express.js, MongoDb, React.js.        
-        "
-        achievement={[
-          "Collaborated with the CEO of Vertel to define business requirements and user stories.",
-"Created a full stack js application from scratch."
-
-        ]}
-        startDate="05/2017"
-        endDate="07/2017"
-        title="Trainee Software Engineer"
-        tags={["Express.js", "Node.js", "Javascript", "MongoDB", "HTML", "CSS", "React"]}
-        company="Vertel"
-        link="https://gust.com/companies/Kadolista-Vertel"
       />
     </>
   );

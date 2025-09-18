@@ -23,7 +23,7 @@ function MyVerticallyCenteredModal(props) {
           className="p-2"
           style={{ fontSize: "20px" }}
         >
-          email address : ilyes95zouaoui@gmail.com
+          email address : ilyes96zouaoui@gmail.com
         </div>
       </Modal.Body>
       <Modal.Footer>

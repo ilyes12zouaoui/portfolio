@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <>
       {/* <div className="pt-4 pb-5"> */}
-      <ProjectManyImages
+{/*       <ProjectManyImages
         description="Forum application to help people with Alzheimer disease get in touch with doctors and professional aiders. 
         With possibility of creating blogs, asking questions, commenting and rating doctors. Created within a team of 4 students using SCRUM. I was the SCRUM master of our team."
         title="Java Spring Angular AWS Docker Project"
@@ -47,7 +47,7 @@ const Projects = () => {
           "images/projects/alzhelps/after13-min.PNG",
           "images/projects/alzhelps/after14-min.PNG"
         ]}
-      />
+      /> */}
            <ProjectManyImages
         githubLink="https://github.com/ilyes12zouaoui/spring-security-jwt-authentication-with-docker"
         description="To coach junior colleagues about Java Spring Security, JWT authentication, Basic Authentication, Docker and Docker-Compose. 
