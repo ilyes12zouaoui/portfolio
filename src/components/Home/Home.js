@@ -119,17 +119,22 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-                Hello very happy to have you on my portfolio website. My name is
-                Ilyes Zouaoui. I am a Mid Level Software Engineer at{" "}
-                <a
-                  href="https://www.capgemini.com/de-de/"
+                Hello I am a Fullstack Engineer with a focus on Backend with more than 3 years experience. Currently I hold                 <a
+                  href="https://www.credly.com/users/ilyes-zouaoui/badges"
                   className="color-blue"
                   style={{ fontSize: "14px" }}
                   target="_blank"
                 >
-                  Capgemini
-                </a>{" "}
-                Berlin. In active search for a new opportunity.
+                  six professional certificates
+                </a>{" "} in java spring framework, cloud technologies (AWS, Kubernetes and Terraform) and Scrum (PMS II and PSPO II) which can be found in more details on my 
+                <a
+                  href="cv/cv_ilyes_zouaoui.pdf"
+                  className="color-blue"
+                  style={{ fontSize: "14px" }}
+                  target="_blank"
+                >
+                  {" "}resume.
+                </a>
               </p>
               <p
                 style={{
@@ -140,7 +145,8 @@ const FormLayout = () => {
                 }}
               >
                 {" "}
-                During the projects I worked on. I made use of a variety of technologies such us Java, Spring Boot, Quarkus, JavaScript, TypeScript, React.js, NestJs, AWS, Docker, Kubernetes. Which made me understand how to create software solutions in multiple ways efficiently. Mainly worked on the backend, but also have good knowledge in frontend and cloud. Always trying to improve the overall quality of the project's code. I Proposed and implemented numerous code refactoring enhancements. Also Created prof of concepts and pitched them to our team's architect.</p>
+                Always trying to improve my skills by reading books about design patterns and software development best practices such us "Head First Design Patterns" and "Effective Java". Also worked on multiple projects using different technologies such us Java, Spring Boot, Quarkus, JavaScript, TypeScript, React.js, NestJs, AWS, Docker, Kubernetes.{" "}
+              </p>
               <p
                 style={{
                   color: "#666",
@@ -162,36 +168,6 @@ const FormLayout = () => {
                   github repository
                 </a>{" "}
                 which is mentioned on my{" "}
-                <a
-                  href="cv/cv_ilyes_zouaoui.pdf"
-                  className="color-blue"
-                  style={{ fontSize: "14px" }}
-                  target="_blank"
-                >
-                  resume.
-                </a>
-              </p>
-              <p
-                style={{
-                  color: "#666",
-                  fontSize: "14px",
-
-                  lineHeight: "22px",
-                }}
-              >
-                {" "}
-                To further improve my skills. I read many books about design
-                patterns and software development best practices such us "Head First Design Patterns". Also obtained{" "}
-                <a
-                  href="https://www.credly.com/users/ilyes-zouaoui/badges"
-                  className="color-blue"
-                  style={{ fontSize: "14px" }}
-                  target="_blank"
-                >
-                  six professional certifications
-                </a>{" "}
-                in java spring framework, cloud technologies (AWS, Kubernetes and Terraform) and Scrum (PMS II and PSPO II) which can
-                be found in more details on my{" "}
                 <a
                   href="cv/cv_ilyes_zouaoui.pdf"
                   className="color-blue"
