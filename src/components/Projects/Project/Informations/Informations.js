@@ -49,7 +49,7 @@ const Informations = ({
               Ilyes Zouaoui
             </span>
             <br />
-            <span>Mid-Senior Java Developer</span>
+            <span>Java Backend Developer</span>
           </div>
         </span>
       </span>
