@@ -10,7 +10,7 @@
 .profile-information-lane-span {
   color: #5c5c5c;
   font-size: 13px;
-  
+  margin-left: 4px;
 }
 .userSection a:hover {
   text-decoration: none !important;

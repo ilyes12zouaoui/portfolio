@@ -32,32 +32,43 @@ const Skillv2 = ({
       style={{ border: "2px solid #22aeffbb", borderRadius: "15px" }}
     >
       <h1
-        className="mb-1"
-        style={{color:"#777", marginBottom: "0px", fontSize: "18px" }}
+        className="mb-2"
+        style={{color:"#777", marginBottom: "10px", fontSize: "20px" }}
       >
-                    <>
+        {`${title}`}{" "}
+      </h1>
+      <div
+        style={{ marginBottom: "5px" }}
+        className={style["profile-information-lane"]}
+      >
+        <FontAwesomeIcon
+          icon={faCalendarAlt}
+          className="color-blue"
+          size="sm"
+        />
+        <span className={style["profile-information-lane-span"]}>
+          {startDate} - {endDate}
+        </span>
+      </div>
+      <div className={style["profile-information-lane"]}>
+        <FontAwesomeIcon
+          icon={faFortAwesome}
+          className="color-blue"
+          size="sm"
+        />
+        <span className={style["profile-information-lane-span"]}>
+          {!!link ? (
+            <>
             <a target="_blank" className="color-blue" href={link}>
               {company}  
             </a> 
             {!!location && ` | ${location}`}
             </>
-      </h1>
-      <div
-        style={{ marginBottom: "4px" }}
-        className={style["profile-information-lane"]}
-      >
-        <span className={style["profile-information-lane-span"]}>
-          {jobTitle} ( {startDate} - {endDate} )
+          ) : (
+            {company} - {location}
+          )}{" "}
         </span>
       </div>
-      {!!jobTitle2 && <div
-        style={{ marginBottom: "4px" }}
-        className={style["profile-information-lane"]}
-      >
-        <span className={style["profile-information-lane-span"]}>
-          {jobTitle2} ( {startDate2} - {endDate2} )
-        </span>
-      </div>}
       {
         descriptions.map((desc,i)=><>
         <div style={{ color: "#666", fontSize: "14px" }} className={`mt-${i>0?"3":"2"} mb-1`}>

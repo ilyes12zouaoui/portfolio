@@ -109,7 +109,7 @@ const FormLayout = () => {
                 className="color-blue text-center mb-3 mt-2"
                 style={{ fontSize: "22px" }}
               >
-                Lead Software Engineer
+                Mid-Level Software Engineer
               </h1>
               <p
                 style={{
@@ -119,14 +119,14 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-                Hello I am a Lead Software Engineer at  <a  
-                 href="https://www.capgemini.com/de-de/"
+                Hello I am a Mid-Level Software Engineer at  <a  
+                 href="https://www.cgm.com/deu-de/"
                   className="color-blue"
                   style={{ fontSize: "14px" }}
                   target="_blank"
                 >
-                  Capgemini
-                </a> in Berlin. During my career I worked on a variety of technologies from the Java and JavaScript ecosystems. Such us Spring Boot, Quarkus, TypeScript, React.js, NestJs, AWS, Docker, Kubernetes. Mainly worked on the Backend but also have good knowledge in Cloud and Frontend.
+                  CompuGroup Medical SE & Co. KGaA
+                </a> in Berlin. During my career I worked on a variety of technologies such as Java, Spring Boot, Quarkus, JavaScript, TypeScript, Node.js, React.js, AWS, Docker, Kubernetes. Mainly worked on the Backend but also have good knowledge in Cloud and Frontend.
                
               </p>
               <p
@@ -137,7 +137,7 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-           To further improve my skills. I read many books about design patterns and software development best practices such us "Head First Design Patterns" and "Effective Java". Also obtained<a  
+           To further improve my skills. I read many books about design patterns and software development best practices such as "Head First Design Patterns", "Effective Java", "Kubernetes in Action" and "Agile Software Development, Principles, Patterns, and Practices". Also obtained<a  
                  href="https://www.credly.com/users/ilyes-zouaoui/badges"
                   className="color-blue"
                   style={{ fontSize: "14px" }}
