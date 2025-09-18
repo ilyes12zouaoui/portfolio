@@ -13,8 +13,8 @@ const Skills = () => {
       />
       <Skill
         description="Studied math, physics, mechanics, electronics, information technology."
-        startDate="2014"
-        endDate="2016"
+        startDate="07/2014"
+        endDate="04/2016"
         title="Preparatory Cycle For Engineering Studies"
         company="IPEIEM"
         link="http://www.ipeiem.rnu.tn/"

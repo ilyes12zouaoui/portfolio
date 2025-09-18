@@ -10,7 +10,7 @@ const Skills = () => {
         "
         startDate="01/2022"
         endDate="Present"
-        title="Lead Java Developer"
+        title="Lead Software Engineer"
         company="Capgemini"
         location="Berlin, Germany"
         link="https://www.capgemini.com/"
@@ -53,7 +53,7 @@ const Skills = () => {
         "
         startDate="08/2020"
         endDate="12/2021"
-        title="Java Developer"
+        title="Software Engineer"
         company="MAIBORNWOLFF SARL"
         link="https://www.maibornwolff.de/en/tunisia"
         tags={[
@@ -86,7 +86,7 @@ const Skills = () => {
         "
         startDate="02/2020"
         endDate="07/2020"
-        title="Trainee Java Developer"
+        title="Trainee Software Engineer"
         company="MAIBORNWOLFF SARL"
         link="https://www.maibornwolff.de/en/tunisia"
         tags={[
@@ -129,7 +129,7 @@ const Skills = () => {
         ]}
         startDate="05/2019"
         endDate="07/2019"
-        title="Trainee Java Developer"
+        title="Trainee Software Engineer"
         company="ESPRIT MINOS GROUP"
         tags={["React", "GraphQL", "Javascript", "Next.js", "Node.js"]}
         link="http://esprit.tn/"
@@ -147,8 +147,8 @@ const Skills = () => {
         ]}
         startDate="05/2017"
         endDate="07/2017"
-        title="Trainee Javascript Developer"
-        tags={["Laravel 5", "php", "Javascript", "SQL", "HTML", "CSS"]}
+        title="Trainee Software Engineer"
+        tags={["Express.js", "Node.js", "Javascript", "MongoDB", "HTML", "CSS", "React"]}
         company="Vertel"
         link="https://gust.com/companies/Kadolista-Vertel"
       />
