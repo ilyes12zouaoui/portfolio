@@ -16,10 +16,10 @@ const Skills = () => {
           ]
           }
         ]}
-        title="Java Backend Developer"
+        title="Mid-Level Software Engineer"
         startDate="09/2023"
         endDate="Present"
-        jobTitle2="Java Backend Developer"
+        jobTitle2="Mid-Level Software Engineer"
         startDate2="08/2023"
         endDate2="04/2023"
         company="CompuGroup Medical SE & Co. KGaA"
@@ -64,10 +64,10 @@ const Skills = () => {
             ],
           },
         ]}
-        title="Java Backend Developer"
+        title="Mid-Level Software Engineer"
         startDate="01/2022"
         endDate="08/2023"
-        jobTitle2="Java Backend Developer"
+        jobTitle2="Mid-Level Software Engineer"
         startDate2="08/2023"
         endDate2="04/2023"
         company="Capgemini"
@@ -131,10 +131,10 @@ const Skills = () => {
         "
         startDate="02/2020"
         endDate="12/2021"
-        title="Full Stack Java Developer"
+        title="Software Engineer"
         startDate2="02/2020"
         endDate2="08/2020"
-        jobTitle2="Full Stack Java Developer"
+        jobTitle2="Software Engineer"
         company="MaibornWolff"
         link="https://www.maibornwolff.de/en/tunisia"
         tags={[

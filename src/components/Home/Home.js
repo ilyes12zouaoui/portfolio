@@ -109,7 +109,7 @@ const FormLayout = () => {
                 className="color-blue text-center mb-3 mt-2"
                 style={{ fontSize: "22px" }}
               >
-                Java Backend Developer
+                Mid-Senior Software Engineer
               </h1>
               <p
                 style={{
@@ -120,7 +120,7 @@ const FormLayout = () => {
                 }}
               >
                 Hello happy to have on my portfolio website. My name is Ilyes Zouaoui.
-                I am working as a Java Backend Developer at <a
+                I am working as a Mid-Level Software Engineer at <a
                   href="https://www.cgm.com/deu_de"
                   className="color-blue"
                   style={{ fontSize: "14px" }}
