@@ -17,7 +17,7 @@ const Skills = () => {
         endDate="04/2016"
         title="Preparatory Cycle for Engineering Studies"
         company="IPEIEM"
-        link="http://www.ipeiem.rnu.tn/"
+        link="https://en.wikipedia.org/wiki/El_Manar_Preparatory_Engineering_Institute"
       />
     </>
   );

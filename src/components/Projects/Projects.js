@@ -334,24 +334,6 @@ const Projects = () => {
         ]}
       /> */}
 
-      <ProjectManyImages
-        description="Marketplace web application. Created within a team of 4 students using SCRUM."
-        title="Javascript Node Express React Project"
-        tags={["Javascript", "Node.js", "Express", "React", "HTML","CSS", "MongoDB","NoSQL", "SCRUM", "Git"]}
-        images={[
-          "images/projects/kadolista/Capture10-min.PNG",
-          "images/projects/kadolista/Capture1-min.PNG",
-          "images/projects/kadolista/Capture2-min.PNG",
-          "images/projects/kadolista/Capture4-min.PNG",
-          "images/projects/kadolista/Capture5-min.PNG",
-          "images/projects/kadolista/Capture6-min.PNG",
-          "images/projects/kadolista/Capture7-min.PNG",
-          "images/projects/kadolista/Capture8-min.PNG",
-          "images/projects/kadolista/Capture9-min.PNG",
-          "images/projects/kadolista/Capture11-min.PNG",
-          "images/projects/kadolista/Capture12-min.PNG"
-        ]}
-      />
       {/* </div> */}
     </>
   );

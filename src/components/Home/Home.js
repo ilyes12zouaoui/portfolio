@@ -109,7 +109,7 @@ const FormLayout = () => {
                 className="color-blue text-center mb-3 mt-2"
                 style={{ fontSize: "22px" }}
               >
-                Mid-Senior Software Engineer
+                Software Engineer
               </h1>
               <p
                 style={{
@@ -119,8 +119,8 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-                Hello happy to have on my portfolio website. My name is Ilyes Zouaoui.
-                I am working as a Mid-Level Software Engineer at <a
+                Hello happy to have you on my portfolio website. My name is Ilyes Zouaoui.
+                I am working as a Software Engineer at <a
                   href="https://www.cgm.com/deu_de"
                   className="color-blue"
                   style={{ fontSize: "14px" }}
@@ -129,7 +129,7 @@ const FormLayout = () => {
                   {" "}CompuGroup Medical SE & Co. KGaA{" "}
                 </a>
                 
-                 in Berlin. With over four years of experience in microservice software development within agile scrum teams. My main area of expertise lies in the backend, using Java, Spring Boot, Quarkus, Docker, and Kubernetes. Additionally, I have acquired firsthand experience in frontend technologies such as Angular, React, JavaScript, and TypeScript, as well as in cloud technologies, specifically AWS.</p>
+                 in Berlin. with over five years of experience in microservice software development within agile teams. I specialize in backend development using Java, Spring Boot, Quarkus, SQL, Hibernate, NoSQL, Docker, Kubernetes, and CI/CD pipelines. Additionally, I have acquired firsthand experience in Javascript, Typescript, Angular, React, and Cloud technologies.</p>
               <p
                 style={{
                   color: "#666",
@@ -146,7 +146,8 @@ const FormLayout = () => {
                   target="_blank"
                 >
                   {" "} six professional certificates{" "}
-                </a> including Professional Scrum Master PSM II, PSPO II, Spring Professional 2021, Kubernetes CKAD, Terraform Associate 002, and AWS Practitioner. In addition, I read multiple books on software development best practices and microservice architecture such as "Head First Design Patterns".
+                </a> including "Professional Scrum Master II" and "VMware Spring Professional 2021". 
+                In addition, I read many books on software architecture and development best practices, such as "Building Microservices", "Head First Design Patterns", and "Effective Java".
               </p>
               <p
                 style={{
@@ -156,7 +157,7 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-                Passionate about coaching junior colleagues. I have created several learning projects and conducted knowledge transfer (KT) sessions to contribute to the growth of my team. You can find some of these projects on my
+                Passionate about coaching junior colleagues. I have created several learning projects and conducted knowledge transfer (KT) sessions. You can find some of these projects on my
                 {" "}
                 <a
                   href="https://github.com/ilyes12zouaoui"

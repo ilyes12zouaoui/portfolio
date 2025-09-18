@@ -12,14 +12,14 @@ const Skills = () => {
             `Designed the technical architecture for integrating a third-party vendor into the system and
             collaborated extensively with the product owner to define its implementation steps.`,
             `Coached junior colleagues by conducting KT sessions and reviewing code implementations.`,
-            `Improved the test’s code quality by introducing the usage of JUnit parameterized test.`
+            `Lead the code migration from a legacy internal framework to the Spring Boot framework.`
           ]
           }
         ]}
-        title="Mid-Level Software Engineer"
+        title="Software Engineer"
         startDate="09/2023"
         endDate="Present"
-        jobTitle2="Mid-Level Software Engineer"
+        jobTitle2="Software Engineer"
         startDate2="08/2023"
         endDate2="04/2023"
         company="CompuGroup Medical SE & Co. KGaA"
@@ -64,10 +64,10 @@ const Skills = () => {
             ],
           },
         ]}
-        title="Mid-Level Software Engineer"
+        title="Software Engineer"
         startDate="01/2022"
         endDate="08/2023"
-        jobTitle2="Mid-Level Software Engineer"
+        jobTitle2="Software Engineer"
         startDate2="08/2023"
         endDate2="04/2023"
         company="Capgemini"

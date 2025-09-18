@@ -12,8 +12,7 @@ import style from "./Informations.module.css";
 const FormLayout = ({ user, isOwner = false }) => {
   return (
     <>
-      <Container className="pt-3 pb-3" style={{ maxWidth: "800px" }}>
-        {/* <div style={{ width: "70%", minWidth: "300px" }} className="fly-box"> */}
+{/*       <Container className="pt-3 pb-3" style={{ maxWidth: "800px" }}>
         <Row className="fly-box" style={{borderRadius:"15px"}}>
           <Col
             // lg={{ offset: 3, span: 6 }}
@@ -31,7 +30,7 @@ const FormLayout = ({ user, isOwner = false }) => {
             </div>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
 
       <Container className="pt-3 pb-5" style={{ maxWidth: "800px" }}>
         {/* <div style={{ width: "70%", minWidth: "300px" }} className="fly-box"> */}
@@ -55,7 +54,7 @@ const FormLayout = ({ user, isOwner = false }) => {
                   size="1x"
                 />
                 <span className={style["profile-information-lane-span"]}>
-                  ilyes96zouaoui@gmail.com
+                  ilyes.zouaoui.work@gmail.com
                 </span>
               </div>
 
@@ -76,7 +75,7 @@ const FormLayout = ({ user, isOwner = false }) => {
                   size="1x"
                 />
                 <span className={style["profile-information-lane-span"]}>
-                  Wilmersdorf, Berlin, Germany
+                  Berlin, Germany
                 </span>
               </div>
             </div>
