@@ -1,0 +1,18 @@
+.profile-information-lane {
+  display: flex;
+  align-items: center;
+  max-width: 450px;
+  height: 15px;
+  color: #5c5c5c;
+  font-size: 14px;
+}
+
+.profile-information-lane-span {
+  color: #5c5c5c;
+  font-size: 10px;
+  margin-left: 3px;
+  font-style: italic;
+}
+.userSection a:hover {
+  text-decoration: none !important;
+}
