@@ -184,7 +184,8 @@ const FormLayout = () => {
                   resume.
                 </a>
               </p>
-              <p
+
+      {   /*     <p
                 style={{
                   color: "#666",
                   fontSize: "14px",
@@ -204,6 +205,9 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
+              */  
+              }
+              <p>
                 <a
                   href="cv/cv_ilyes_zouaoui.pdf"
                   className="color-blue"
