@@ -92,8 +92,9 @@ export default () => {
                     </a>
                   </li>
                   <li className="list-inline-item">
+                    <a href = "mailto: ilyes96zouaoui@gmail.com">
                     <img
-                      onClick={() => setModalShow(true)}
+    
                       src={googlePlusIcon}
                       style={{
                         width: "32px",
@@ -101,6 +102,7 @@ export default () => {
                         cursor: "pointer"
                       }}
                     />
+                    </a>
                   </li>
                   <li className="list-inline-item">
                     <a
