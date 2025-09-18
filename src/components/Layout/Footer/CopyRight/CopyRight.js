@@ -82,17 +82,6 @@ export default () => {
                 <ul className="list-unstyled list-inline" style={{ margin: 0 }}>
                   <li className="list-inline-item">
                     <a
-                      href="https://www.facebook.com/ilyes.zouaoui11"
-                      target="_blank"
-                    >
-                      <img
-                        src={facebookIcon}
-                        style={{ width: "32px", height: "32px" }}
-                      />
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a
                       href="https://www.linkedin.com/in/ilyes-zouaoui"
                       target="_blank"
                     >
