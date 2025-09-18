@@ -7,15 +7,15 @@ const Skills = () => {
         description="Studied software architecture, front end development, back end development and agile methods."
         startDate="07/2016"
         endDate="08/2020"
-        title="National Degree Of Engineering ( Bachelor )"
+        title="National Degree of Engineering ( Bachelor )"
         company="ESPRIT"
-        link="http://esprit.tn"
+        link="https://en.wikipedia.org/wiki/ESPRIT_(School)"
       />
       <Skill
         description="Studied math, physics, mechanics, electronics, information technology."
         startDate="07/2014"
         endDate="04/2016"
-        title="Preparatory Cycle For Engineering Studies"
+        title="Preparatory Cycle for Engineering Studies"
         company="IPEIEM"
         link="http://www.ipeiem.rnu.tn/"
       />

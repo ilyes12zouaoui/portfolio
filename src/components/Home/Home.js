@@ -60,8 +60,8 @@ const FormLayout = () => {
         {/* <div style={{ width: "70%", minWidth: "300px" }} className="fly-box"> */}
         <Row
           className="fly-box"
-          style={{ marginTop: "130px", position: "relative", borderRadius:"15px" }}
-          
+          style={{ marginTop: "130px", position: "relative", borderRadius: "15px" }}
+
         >
           <Col
             // lg={{ offset: 3, span: 6 }}
@@ -109,7 +109,7 @@ const FormLayout = () => {
                 className="color-blue text-center mb-3 mt-2"
                 style={{ fontSize: "22px" }}
               >
-                Mid-Level Software Engineer
+                Mid-Senior Java Developer
               </h1>
               <p
                 style={{
@@ -119,15 +119,8 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-                Hello I am a Mid-Level Software Engineer at  <a  
-                 href="https://www.cgm.com/deu-de/"
-                  className="color-blue"
-                  style={{ fontSize: "14px" }}
-                  target="_blank"
-                >
-                  CompuGroup Medical SE & Co. KGaA
-                </a> in Berlin. During my career I worked on a variety of technologies such as Java, Spring Boot, Quarkus, JavaScript, TypeScript, Node.js, React.js, AWS, Docker, Kubernetes. Mainly worked on the Backend but also have good knowledge in Cloud and Frontend.
-               
+                Hello happy to have on my portfolio website. My name is Ilyes Zouaoui.
+                I have over four years of experience as a Java developer in an agile team environment, In my previous roles, I worked mainly on the backend side using Java, Spring Boot, Quarkus, Docker, and Kubernetes. Additionally, I've had the opportunity to gain experience in frontend technologies like Angular, React, javascript, and TypeScript, while also leveraging cloud services on AWS.
               </p>
               <p
                 style={{
@@ -137,23 +130,16 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-           To further improve my skills. I read many books about design patterns and software development best practices such as "Head First Design Patterns", "Effective Java", "Kubernetes in Action" and "Agile Software Development, Principles, Patterns, and Practices". Also obtained<a  
-                 href="https://www.credly.com/users/ilyes-zouaoui/badges"
-                  className="color-blue"
-                  style={{ fontSize: "14px" }}
-                  target="_blank"
-                >
-                 {" "} six professional certificates{" "}
-                </a> in java spring framework, cloud technologies (AWS, Kubernetes and Terraform) and Scrum (PSM II and PSPO II) which can be found in more details on my
+                To enhance my expertise, I've obtained
                 <a
-                  href="cv/cv_ilyes_zouaoui.pdf"
+                  href="https://www.credly.com/users/ilyes-zouaoui/badges"
                   className="color-blue"
                   style={{ fontSize: "14px" }}
                   target="_blank"
                 >
-                 {" "} resume.
-                </a> 
-   </p>
+                  {" "} six professional certificates{" "}
+                </a> including Professional Scrum Master PSM II, PSPO II, Spring Professional 2021, Kubernetes CKAD, Terraform Associate 002, and AWS Practitioner. In addition, I read multiple books on software development best practices and microservice architecture such as "Head First Design Patterns".
+              </p>
               <p
                 style={{
                   color: "#666",
@@ -162,10 +148,8 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-                Passionate about coaching junior colleagues. I Created multiple
-                learning projects about full stack development and conducted
-                KT sessions to share knowledge. Some of these learning
-                projects can be found on my{" "}
+                Passionate about coaching junior colleagues. I have created several learning projects and conducted knowledge transfer (KT) sessions to contribute to the growth of my team. You can find some of these projects on my
+                {" "}
                 <a
                   href="https://github.com/ilyes12zouaoui"
                   className="color-blue"
@@ -185,7 +169,7 @@ const FormLayout = () => {
                 </a>
               </p>
 
-      {   /*     <p
+              {   /*     <p
                 style={{
                   color: "#666",
                   fontSize: "14px",
@@ -205,7 +189,7 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-              */  
+              */
               }
               <p>
                 <a
@@ -304,7 +288,7 @@ const FormLayout = () => {
           </Col>
         </Row>
         <Element name="certificationsScrollTo"></Element>
-        <Row className="fly-box mt-4" style={{borderRadius:"15px"}}>
+        <Row className="fly-box mt-4" style={{ borderRadius: "15px" }}>
           <Col
             // lg={{ offset: 3, span: 6 }}
             // md={{ offset: 3, span: 6 }}
@@ -338,7 +322,7 @@ const FormLayout = () => {
           }}
         > */}
         {/* </Link> */}
-        <Row className="fly-box mt-4" style={{borderRadius:"15px"}}>
+        <Row className="fly-box mt-4" style={{ borderRadius: "15px" }}>
           <Col
             // lg={{ offset: 3, span: 6 }}
             // md={{ offset: 3, span: 6 }}
@@ -357,7 +341,7 @@ const FormLayout = () => {
             </div>
           </Col>
         </Row>
-        <Row className="fly-box mt-4" style={{borderRadius:"15px"}}>
+        <Row className="fly-box mt-4" style={{ borderRadius: "15px" }}>
           <Col
             // lg={{ offset: 3, span: 6 }}
             // md={{ offset: 3, span: 6 }}
@@ -372,6 +356,7 @@ const FormLayout = () => {
               >
                 Work Experience
               </h1>
+              <Element name="WorkExperienceScrollTo"></Element>
               <Experiences />
             </div>
           </Col>
@@ -379,7 +364,7 @@ const FormLayout = () => {
         <Row
           className="fly-box mt-4"
           style={{
-            borderRadius:"15px"
+            borderRadius: "15px"
           }}
         >
           <Col
@@ -400,7 +385,7 @@ const FormLayout = () => {
             </div>
           </Col>
         </Row>
-        <Row className="fly-box mt-4" style={{borderRadius:"15px"}}>
+        <Row className="fly-box mt-4" style={{ borderRadius: "15px" }}>
           <Col
             // lg={{ offset: 3, span: 6 }}
             // md={{ offset: 3, span: 6 }}
@@ -617,7 +602,7 @@ const FormLayout = () => {
         <Element name="projectsScrollTo"></Element>
         <Row
           className="fly-box mt-5 "
-          style={{ backgroundColor: "rgb(42 177 255 / 73%)", borderRadius:"15px" }}
+          style={{ backgroundColor: "rgb(42 177 255 / 73%)", borderRadius: "15px" }}
         >
           <Col
             // lg={{ offset: 3, span: 6 }}

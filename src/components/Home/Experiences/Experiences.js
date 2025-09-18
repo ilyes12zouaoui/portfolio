@@ -1,5 +1,4 @@
 import React from "react";
-import Skill from "./Experience/Experience";
 import Skillv2 from "./Experience/Experiencev2";
 const Skills = () => {
   return (
@@ -7,12 +6,18 @@ const Skills = () => {
           <Skillv2
         descriptions={[
           {
-            description: `Partacipating in the development of microservice applications in the medical field using Java, Quarkus, Docker, Kubernetes, Hibernate, MongoDB, ElasticSearch, Scrum, ActiveMQ and Event Driven Design.`,
-          achievements: []
+            description: `Participating in the development of microservice applications in the medical field using Java, Spring
+            Boot, Quarkus, Docker, Kubernetes, Hibernate, MongoDB, PostgreSQL, Event Broker and Scrum.`,
+          achievements: [
+            `Designed the technical architecture for integrating a third-party vendor into the system and
+            collaborated extensively with the product owner to define its implementation steps.`,
+            `Coached junior colleagues by conducting KT sessions and reviewing code implementations.`,
+            `Improved the test’s code quality by introducing the usage of JUnit parameterized test.`
+          ]
           }
         ]}
-        title="Mid-Level Software Engineer"
-        startDate="09/2022"
+        title="Mid-Level Backend Software Engineer"
+        startDate="09/2023"
         endDate="Present"
         jobTitle2="Software Engineer"
         startDate2="08/2023"
@@ -39,23 +44,27 @@ const Skills = () => {
       <Skillv2
         descriptions={[
           {
-            description: `Worked on two consulting projects. At the first project I participated in the development of microservice applications that handles the electronic signature of contracts between car dealers and customers using NestJs, Node.js, TypeScript, JavaScript, Java, Spring boot, Docker, Kubernetes and AWS.`,
+            description: `Worked on two consulting projects. In the first project, participated in the development of
+            microservice applications that handle the electronic signature of contracts between car dealers and
+            customers using Java, Spring Boot, NestJs, Node.js, TypeScript, JavaScript, Docker, Terraform,
+            Git, Kubernetes, and AWS.`,
             achievements: [
-              "Integrated multiple third-party vendors into the project such as Scrive, Salesforce and Onfido.",
-              "Proposed and implemented code refactoring optimizations that enhanced the system.",
-              "Collaborated with the product owner proxy on urgent bug investigation and resolution.",
-              "Conducted KT Sessions to share knowledge."
+              "Integrated multiple third-party vendors into the project such as Scrive, Salesforce, and Onfido.",
+              "Enhanced the system’s response time significantly by proposing code refactoring optimizations.",
+              "Collaborated with the product owner proxy on urgent bug investigation and resolution."
             ],
           },
           {
-            description: `At the second project I participated in the development of a car assembly line management application using Java.`,
+            description: `In the second project, participated in the development of a car assembly line management
+            application using Java.
+            `,
             achievements: [
-              "Assisting with the agile transformation of our international Scrum team from Germany and India.",
-              "Participating in the migration of legacy CORBA APIs to RESTful APIs using Java."
+              "Assisted with the agile transformation of our international Scrum team from Germany and India.",
+              "Participated in the migration of legacy CORBA APIs to RESTful APIs using Java."
             ],
           },
         ]}
-        title="Mid-Level Software Engineer"
+        title="Mid-Level Backend Software Engineer"
         startDate="01/2022"
         endDate="08/2023"
         jobTitle2="Software Engineer"
@@ -70,6 +79,7 @@ const Skills = () => {
           "Spring",
           "Spring boot",
           "Java",
+          "NestJs",
           "Javascript",
           "TypeScript",
           "Node.js",
@@ -86,31 +96,27 @@ const Skills = () => {
         location="Tunis, Tunisia"
         descriptions={[
           {
-            description: `Worked on three consulting projects. At the first project I participated in the migration of a social media for luxurious car owners
-            application from PHP Drupal system to microservice solutions using Java, Spring Boot, Mqtt message
-            broker, PostgreSql, Docker, Kubernetes, Gitlab CI and React.js.`,
+            description: `Worked on three consulting projects. In the first project, participated in the migration of a social media application for luxurious car owners from PHP Drupal system to microservice solutions using Java, Spring Boot, Event broker, PostgreSql, Docker, Kubernetes, Gitlab CI and Angular.`,
             achievements: [
               "Created a CI/CD pipeline optimization solution and presented it to our team's architect.",
-              "Coached new trainees on software development and SCRUM.",
-              "Presented the company to candidates and assisted in the successful recruitment of 3 colleagues."
+              "Presented the company to candidates and assisted in the recruitment of 3 new colleagues.",
             ],
           },
           {
-            description: `At the second project I participated in the Development and maintenance of
-            legacy microservice applications for automotive supply chain management using Quarkus, Java,
-            Docker, Jenkins, Kubernetes and PostgreSql.
+            description: `In the second project, participated in the Development and maintenance of legacy microservice applications for automotive supply chain management using Quarkus, Java, Docker, Angular, Javascript, Typescript, Jenkins, Kubernetes and PostgreSql.
             `,
             achievements: [
-              "Remained on call to urgently support clients, resolve incidents and fix code bugs.",
-              "Actively participated in the project's onboarding of new colleagues."
+              "Remained on call to urgently support client incidents and fix code bugs.",
+              "Was responsible for the onboarding of two new colleagues to the project."
             ],
           },
           {
-            description: `At the third project I participated in the migration of a part of a monolithic application that calculates the usage of car
-            manufacturer equipment's to a microservice solution with deployment to the cloud using Java, Spring
-            Boot, Docker, Kubernetes, JavaScript, TypeScript, MySql, React.js, Gitlab CI and AWS.`,
+            description: `In the third project, participated in the migration of a part of a monolithic application that calculates
+            the usage of car manufacturer equipment to a microservice solution with deployment to the cloud
+            using Java, Spring Boot, Docker, Kubernetes, TypeScript, MySql, React.js, Gitlab CI and AWS.
+            `,
             achievements: [
-              "Documented the migration steps as a proof of concept for my graduation internship."
+              "Documented the migration steps as a proof of concept."
             ],
           }
         ]}
@@ -125,7 +131,7 @@ const Skills = () => {
         "
         startDate="02/2020"
         endDate="12/2021"
-        title="Software Engineer"
+        title="Full Stack Software Engineer"
         startDate2="02/2020"
         endDate2="08/2020"
         jobTitle2="Trainee Software Engineer"
@@ -149,8 +155,8 @@ const Skills = () => {
       />
       <Skillv2
         location="Tunis, Tunisia"
-        description="While studying at university. Taught during the week-ends a group of 8 students from various ages 14 to 40 web
-        development technologies. Such as HTML, CSS, Node.js, Javascript, Typescript, Angular."
+        description="While studying at university. Taught a group of 8 students during the weekend web development
+        technologies such as HTML, CSS, Node.js, Javascript, Typescript and React.js"
         achievement={[
           "Conducted more than 15 workshops about web development.",
           "Created 6 new learning projects and proposed them to Gomycode as new official training projects.",
@@ -162,14 +168,13 @@ const Skills = () => {
             week-ends. Such as HTML, CSS, Node.js, Javascript, Typescript, React.js.
             `,
             achievements: [
-              "Conducted more than 15 workshops about web development.",
-              "Created 6 new learning projects and proposed them to Gomycode as new official training projects.",
+              "Conducted more than 15 workshops and proposed 6 new learning projects to Gomycode.",
             ],
           }
         ]}
         startDate="07/2019"
         endDate="01/2020"
-        title="Part-Time Web Lecturer"
+        title="Part-Time Web Lecturer Trainee"
         company="GOMYCODE"
         tags={["React", "Javascript", "HTML", "CSS", "Node.js"]}
         link="https://gomycode.com/"
