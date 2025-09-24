@@ -119,17 +119,10 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-                Hello happy to have you on my portfolio website. My name is Ilyes Zouaoui.
-                I am working as a Software Engineer at <a
-                  href="https://www.cgm.com/deu_de"
-                  className="color-blue"
-                  style={{ fontSize: "14px" }}
-                  target="_blank"
-                >
-                  {" "}CompuGroup Medical SE & Co. KGaA{" "}
-                </a>
-                
-                 in Berlin. with over five years of experience in microservice software development within agile teams. I specialize in backend development using Java, Spring Boot, Quarkus, SQL, Hibernate, NoSQL, Docker, Kubernetes, and CI/CD pipelines. Additionally, I have acquired firsthand experience in Javascript, Typescript, Angular, React, and Cloud technologies.</p>
+                Welcome! I'm an experienced Software Engineer based in Berlin with a Master's Degree in Software Engineering and over five years of experience in backend microservice development within agile teams.
+
+My core expertise is in Java, Spring Boot, and Quarkus. I have extensive experience with database technologies like SQL, Hibernate, and NoSQL, as well as with modern DevOps practices, including Docker, Kubernetes, and CI/CD pipelines. While my primary focus is backend development, I also have firsthand experience with frontend technologies like JavaScript, TypeScript, Angular, and React.
+</p>
               <p
                 style={{
                   color: "#666",
@@ -157,8 +150,8 @@ const FormLayout = () => {
                   lineHeight: "22px",
                 }}
               >
-                Passionate about coaching junior colleagues. I have created several learning projects and conducted knowledge transfer (KT) sessions. You can find some of these projects on my
-                {" "}
+                Passionate about mentorship and contributing to the growth of others. I have a track record of creating learning projects and leading knowledge transfer sessions to help junior colleagues. You can explore some of my work and personal projects
+               on my{" "}
                 <a
                   href="https://github.com/ilyes12zouaoui"
                   className="color-blue"

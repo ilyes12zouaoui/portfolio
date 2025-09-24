@@ -7,7 +7,7 @@ const Skills = () => {
         description="Studied software architecture, front end development, back end development and agile methods."
         startDate="07/2016"
         endDate="08/2020"
-        title="National Degree of Engineering ( Bachelor )"
+        title="Master's Degree in Software Engineering"
         company="ESPRIT"
         link="https://en.wikipedia.org/wiki/ESPRIT_(School)"
       />
