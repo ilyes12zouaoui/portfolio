@@ -31,7 +31,7 @@ const Header = () => {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
         <a
-            href="cv/cv_ilyes_zouaoui.pdf"
+            href="cv/Ilyes_Zouaoui_Resume.pdf"
             target="_blank"
             style={{ textDecoration: "none" }}
           >

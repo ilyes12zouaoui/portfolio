@@ -3,18 +3,13 @@ import { Container, Row, Col, Modal, Button } from "react-bootstrap";
 import Projects from "../Projects/Projects";
 import ContactUs from "../ContactUs/ContactUs";
 
-import style from "./Home.module.css";
-import facebookIcon from "./icons/facebook.png";
 import githubIcon from "./icons/github.png";
 import linkedInIcon from "./icons/linkedin.png";
 import googlePlusIcon from "./icons/google-plus.png";
-import youtubeIcon from "./icons/youtube.png";
 import Skills from "./Skills/Skills";
-import Langues from "./Skills/Langues";
 import Experiences from "./Experiences/Experiences";
 import Certifications from "./Certificiations/Certifications";
 import Educations from "./Educations/Educations";
-import Associatives from "./Associatives/Associatives";
 var Scroll = require("react-scroll");
 
 var Element = Scroll.Element;
@@ -162,7 +157,7 @@ My core expertise is in Java, Spring Boot, and Quarkus. I have extensive experie
                 </a>{" "}
                 which is mentioned on my{" "}
                 <a
-                  href="cv/cv_ilyes_zouaoui.pdf"
+                  href="cv/Ilyes_Zouaoui_Resume.pdf"
                   className="color-blue"
                   style={{ fontSize: "14px" }}
                   target="_blank"
@@ -195,7 +190,7 @@ My core expertise is in Java, Spring Boot, and Quarkus. I have extensive experie
               }
               <p>
                 <a
-                  href="cv/cv_ilyes_zouaoui.pdf"
+                  href="cv/Ilyes_Zouaoui_Resume.pdf"
                   className="color-blue"
                   style={{ fontSize: "14px" }}
                   target="_blank"
@@ -261,17 +256,6 @@ My core expertise is in Java, Spring Boot, and Quarkus. I have extensive experie
                       <img
                         src={githubIcon}
                         style={{ width: "32px", height: "32px" }}
-                      />
-                    </a>
-                  </li>
-                  <li className="list-inline-item">
-                    <a
-                      href="https://www.youtube.com/channel/UCmHLMyg-aLEpteU3jmClq8g"
-                      target="_blank"
-                    >
-                      <img
-                        src={youtubeIcon}
-                        style={{ width: "37px", height: "37px" }}
                       />
                     </a>
                   </li>
